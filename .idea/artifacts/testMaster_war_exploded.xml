@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testMaster:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/testMaster_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="testMaster/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testMaster" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="Struts 2-2.3.20.1" />
+          <element id="library" level="project" name="Spring-4.2.5.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.2.5.RELEASE" />
+          <element id="library" level="project" name="log4j-1.2.17" />
+          <element id="library" level="project" name="fastjson-1.1.37" />
+          <element id="library" level="project" name="struts2-convention-plugin-2.3.16.1" />
+          <element id="library" level="project" name="aspectjrt-1.8.7" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.38" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="poi-3.10-FINAL" />
+          <element id="library" level="project" name="jackson-core-asl-1.9.13" />
+          <element id="library" level="project" name="jackson-mapper-asl-1.9.13" />
+          <element id="library" level="project" name="commons-lang3-3.4" />
+          <element id="library" level="project" name="jcommon-1.0.21" />
+          <element id="library" level="project" name="jfreechart-1.0.17" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
